@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "leadspaces",
+  "info": {
+    "singularName": "leadspace",
+    "pluralName": "leadspaces",
+    "displayName": "leadspace"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "video": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
